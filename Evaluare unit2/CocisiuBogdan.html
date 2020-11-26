@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="C:\Users\ossku\Desktop\Evaluare unit2\BogdanCss.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"
+
+
+</head>
+<body>
+	<h1>Cocisiu Bogdan Radu</h1>
+	<div>
+	<h4><a href="https://ro.mail.yahoo.com/">bogdan_cocisiu7@yahoo.com</a></h4>
+	</div>
+	<br>
+	<br>
+	<div class="left">
+	<h3>Specificatii tehnice ale statiei principale de lucru</h3>
+	<br>
+	</div>
+
+<table >
+  <tr>
+    <th>Denumire Componenta</th>
+    <th>Parametrii</th> 
+    <th>Producator</th>
+  </tr>
+  <tr>
+    <td>Procesor Intel i7-6700k</td>
+    <td>4.0GHz, Skylake, 8MB, Socket 1151</td>
+    <td>Intel</td>
+  </tr>
+  <tr>
+    <td>Placa Video Nvidia GTX 1070</td>
+    <td>8GB GDDR5, 256-bit</td>
+    <td>ASUS ROG</td>
+  </tr>
+  <tr>
+    <td>Placa de baza Z170-K</td>
+    <td>Socket 1151,DDR4</td>
+    <td>ASUS</td>
+  </tr>
+  <tr>
+    <td>16GB Rami</td>
+    <td>2x8GB DDR4 3200MHz CL16 Dual Channel</td>
+    <td>Corsair</td>
+  </tr>
+  <tr>
+    <td>Memorie de stocare 1TB</td>
+    <td>SATA3 64MB 7200RPM</td>
+    <td>Western Digital</td>
+  </tr>
+  <tr>
+    <td>Sursa 550W </td>
+    <td>550W 80 PLUS Gold</td>
+    <td>Corsair</td>
+  </tr>
+  <tr>
+    <td>Cooler Procesor NH-D15</td>
+    <td>Racire de aer,2 ventilatoare</td>
+    <td>Noctua</td>
+  </tr>
+  </table>
+  <br>
+  <div class="text">
+  <h3 class="left" >Structura retelei personale si accesul la internet</h3>
+  <img src="BogdanRet.png" width="500" height="400" >
+  <h3 class="position">Caracterisiticile conexiunii la retea</h3>
+  <ol class="c">
+  <li>Adresa MAC:30-5A-3A-47-13-96</li>
+  <li>Adresa IP:192.168.100.23</li>
+  <li>Debit la download:195.3Mbps</li>
+  <li>Debit la upload:196.2Mbps</li>
+</ol> 
+  </div>
+  <button class="position" type="button" onclick="function()">Utilizare resurse (slideshow)</button>
+  
+  
+  
+
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+<img src="Poza1.png" style="width:150%">
+</div>
+
+<div class="mySlides fade"> 
+<img src="Poza2.png" style="width:150%"> 
+</div>
+
+<div class="mySlides fade">
+<img src="Poza3.png" style="width:150%">
+</div>
+
+<div class="mySlides fade">
+<img src="Poza4.png" style="width:150%"> 
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+
